@@ -24,5 +24,7 @@ https://blog.csdn.net/weixin_42112635/article/category/8488010
             |--e3-manager-web：表现层工程 ， 打包方式war  ，      Maven模块
 
 
+## 2、SSM 框架整合
+![整合思路](https://img-blog.csdnimg.cn/20181129222714386.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MjExMjYzNQ==,size_16,color_FFFFFF,t_70)
 
 
