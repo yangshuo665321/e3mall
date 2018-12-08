@@ -1,5 +1,6 @@
 package cn.ynx.e3mall.fastdfs;
 
+import cn.ynx.e3mall.common.utils.FastDFSClient;
 import org.csource.fastdfs.*;
 import org.junit.Test;
 
@@ -25,6 +26,14 @@ public class FastDFSTest {
             System.out.println(string);
         }
     }
+
+    @Test
+    public void testFastDfsClient() throws Exception {
+        FastDFSClient fastDFSClient = new FastDFSClient("C:\\Users\\ys951\\Desktop\\e3mall\\e3-manager-web\\src\\main\\resources\\conf\\client.conf");
+        String file = fastDFSClient.uploadFile("C:\\Users\\ys951\\Desktop\\02.教案-AB-3.0\\111.png");
+        System.out.println(file);
+    }
+
 
 }
 
