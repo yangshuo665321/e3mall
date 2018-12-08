@@ -40,6 +40,7 @@
         <activemq.version>5.11.2</activemq.version>
         <freemarker.version>2.3.23</freemarker.version>
         <quartz.version>2.2.2</quartz.version>
+        <fastdfs.version>1.27</fastdfs.version>
     </properties>
 
     <!-- 管理 jar 包的版本，并不是依赖 -->
@@ -229,7 +230,12 @@
                 <artifactId>freemarker</artifactId>
                 <version>${freemarker.version}</version>
             </dependency>
-
+            <!-- fastdfs-client-java -->
+            <dependency>
+                <groupId>cn.bestwu</groupId>
+                <artifactId>fastdfs-client-java</artifactId>
+                <version>${fastdfs.version}</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 
