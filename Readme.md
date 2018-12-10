@@ -6,6 +6,12 @@
 ![](https://img.shields.io/badge/Tomcat-8.5-blue.svg) 
 ![](https://img.shields.io/badge/Maven-3.3.9-blue.svg) 
 
+   | 工程名                |    IP               |                     地址                         |
+   | --------------------- | ------------------- | ------------------------------------------------ |
+   | e3-manager-service    |   后台商品服务层    | [http://localhost:8080/](http://localhost:8080/) |
+   | e3-manager-web        |   后台商品表现层    | [http://localhost:8082/](http://localhost:8082/) |
+   | e3-portal-web         |   首页              | [http://localhost:8083/](http://localhost:8083/) |
+
 
 为了检验作者的学习情况，故记录本项目的详细步骤
 
