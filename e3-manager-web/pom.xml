@@ -19,6 +19,14 @@
             <artifactId>e3-manager-interface</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
+
+        <!-- 依赖 e3-content-interface 模块 -->
+        <dependency>
+            <groupId>cn.ynx.e3mall</groupId>
+            <artifactId>e3-content-interface</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+
         <!-- spring的依赖 -->
         <!-- Spring -->
         <dependency>
