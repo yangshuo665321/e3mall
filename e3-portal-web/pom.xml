@@ -15,6 +15,11 @@
     <packaging>war</packaging>
 
     <dependencies>
+        <dependency>
+            <groupId>cn.ynx.e3mall</groupId>
+            <artifactId>e3-content-interface</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
         <!-- spring的依赖 -->
         <!-- Spring -->
         <dependency>
